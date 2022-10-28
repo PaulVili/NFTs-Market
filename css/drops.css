@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ffff;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.mainLogo{
+    color: black;
+    font-size: 2em;
+}
+nav{
+    display: flex;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+nav ul li{
+    margin: 1ex;
+}
+nav ul li a{
+  color: #999999;
+}
+nav ul li a:hover{
+  color: #4D4D4D;
+}
+
+.submenu {
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    top: 100%;
+    width: 150px;
+    padding: 15px 0 15px;
+    margin-top: 5px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(-50%, 20px);
+    transition: .3s;
+  }
+  .topmenu > li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+  .searchWeb3{
+    width: 30em;
+    border: none;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 9999px;
+  }
+  .connectWallet{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .btnDesign{
+    background-color: black;
+    font-size: 16px;
+    padding: 15px 24px 15px 24px;
+    border-radius: 9999px;
+    color: white;
+  }
+  .btnDesign:hover{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15), 0px 4px 7px rgba(0, 0, 0, 0.05), 0px 12px 40px rgba(0, 0, 0, 0.1);;
+    transform: translate3d(0px, -1px, 0px);
+  }
+  
+  .introducingDrops{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .introducingDropsHeading{
+    font-size: 24px;
+    color: #000;
+  }
+  .invitingPhrase{
+    color: #000;
+    font-size: 86px;
+    font-weight: bold;
+  }
+  .wayWord{
+    color: rgb(139, 77, 237);
+    background: rgb(224, 209, 251);
+    padding: 16px;
+    border-radius: 45px;
+  }
+  .createWord{
+    color: rgb(69, 87, 92);
+    background: rgb(227, 254, 82);
+    padding: 16px;
+    border-radius: 45px;
+  }
+  
+  .requestEarlyAccess{
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+
+
+
+
+  
+
+  footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .privacyHeading h2{
+    color: black;
+    font-size: 2em;
+  }
+
+  .privacyBody{
+    flex-direction: column;   
+    display: flex;
+  }
+  .privacyBody a{
+    margin-bottom: 2ex;
+    color: #999999;
+  }
+  .privacyBody a:hover{
+    color: #4D4D4D;
+  }
+  .footerBlock{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .blockBody{
+    padding: 0;
+  }
+  .blockBody ul{
+    padding: 0;
+  }
+  
+  .blockBody li {
+    margin-bottom: 2ex;
+  }
+  .blockBody ul li a{
+    font-size: 18px;
+    color: black;
+  }
+  .blockBody ul li a:hover{
+    color: #4D4D4D;
+  }
+  .footerBlockHeading{
+    color: #999999;
+    font-size: 14px;
+  }

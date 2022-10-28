@@ -1,0 +1,656 @@
+body{
+    margin: 0;
+    padding: 1rem;
+    background: #ffff;
+    position: relative;  
+}
+.walletBlock{
+  position: fixed;  
+  background: #ffff;
+  border-radius: 15px;  
+  padding: 2rem;
+  border: 1px solid #000;
+  display: none;
+}
+.walletBlockActive{
+  top: 10%;
+  left: 35%;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.crossIcon{
+  cursor: pointer;
+}
+.walletBlockHeading{
+  font-size: 36px;
+  color: #000;
+}
+.walletBlockAbout{
+  color: #4D4D4D;
+  font-size: 24px;
+}
+.serviceAndPolicy{
+  color: #4D4D4D;
+  font-size: 24px;
+}
+.serviceAndPolicy a{
+  color: #4D4D4D;
+  font-size: 24px;
+  text-decoration: underline;
+}
+.wallets ul li{
+  border-radius: 15px;
+  padding: 5px;
+  margin: 1rem;
+}
+.wallets ul li a{
+  margin: 15px;
+  font-size: 24px;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+.MetamaskWallet{
+  background-image: linear-gradient(267.54deg, rgb(255, 220, 36) 1.63%, rgb(255, 92, 0) 98.05%);
+}
+.WalletConnectWallet{
+  background-image: linear-gradient(267.56deg, rgb(5, 0, 255) 0%, rgb(143, 0, 255) 97.07%);
+}
+.CoinbaseWallet{
+  background-image: linear-gradient(267.56deg, rgb(0, 82, 255) 0%, rgb(55, 115, 245) 97.07%);
+}
+.newToEthereum{
+  font-size: 24px;
+  color: #000;
+}
+.LearnAbout{
+  color: #4D4D4D;
+  font-size: 24px;
+  text-decoration: underline;
+}
+.wrapper{
+  filter: none;
+}
+.wrapperWalletBlockOpen{
+  filter: blur(10px); 
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.mainLogo{
+    color: black;
+    font-size: 2em;
+}
+nav{
+    display: flex;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+nav ul li{
+    margin: 1ex;
+}
+nav ul li a{
+  color: #000;
+  padding: 10px;
+  border-radius: 9999px;
+}
+nav ul li a:hover{
+  background: #999999;
+  transition: 0.5s;  
+}
+
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  top: 2rem;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .searchWeb3{
+    width: 30em;
+    border: none;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 9999px;
+  }
+  .connectWallet{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .btnDesign{
+    background-color: black;
+    font-size: 16px;
+    padding: 15px 24px 15px 24px;
+    border-radius: 9999px;
+    color: white;
+  }
+  .btnDesign:hover{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15), 0px 4px 7px rgba(0, 0, 0, 0.05), 0px 12px 40px rgba(0, 0, 0, 0.1);;
+    transform: translate3d(0px, -1px, 0px);
+  }
+  
+  .introducingDrops{
+    cursor: pointer;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #4d4d4d;
+    border-radius: 15px;
+  }
+  .introducingDropsHeading{
+    font-size: 24px;
+    color: #000;
+  }
+  .invitingPhrase{
+    color: #000;
+    font-size: 86px;
+    font-weight: bold;
+  }
+  .wayWord{
+    color: rgb(139, 77, 237);
+    background: rgb(224, 209, 251);
+    padding: 16px;
+    border-radius: 45px;
+  }
+  .createWord{
+    color: rgb(69, 87, 92);
+    background: rgb(227, 254, 82);
+    padding: 16px;
+    border-radius: 45px;
+  }
+  
+
+  .Auction{
+    display: flex;
+    padding: 50px;
+  }
+  .SymbioteNFT{
+    padding: 50px;
+    max-width: 25rem;
+    max-height: 25rem;
+  }
+
+  .aboutAuction{
+    padding: 50px 150px;
+  }
+  .nameNFT{
+    color: #000;
+    font-size: 56px;
+    font-weight: bold;
+  }
+  .nameNFT:hover{
+    color: #333333;
+  }
+  .AuctionBlock{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 3rem;
+  }
+  .AuctionBlockHeading{
+    color:#666666;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .AuctionBlockP{
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .auctionA{
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 9999px;
+    background-color: #FFFFFF;
+    border-color: transparent;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.02), 0px 8px 16px rgba(0, 0, 0, 0.02), 0px 16px 32px rgba(0, 0, 0, 0.04);;
+  }
+  .createdByAuctionBlock{
+    margin-right: 3rem;
+  }
+  .currentBidAuctionBlock{
+    margin-right: 3rem;
+  }
+  .viewNFT{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 18px;
+  }
+
+.curatedDrops{
+  padding: 2rem;
+}
+.curatedDropsHeading{
+  font-size: 24px;
+  font-weight: normal;
+  color: #000;
+}
+
+.curatedDropsLearnMore{
+  display: block;
+  font-size: 18px;
+  color: #4d4d4d;
+  text-align: right;
+}
+.curatedDropsLearnMore:hover{
+  color: #000;
+}
+
+
+  .curatedDropsBlocksLine{
+    margin-top: 2rem;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .curatedDropsBlock{
+    width: calc(25% - 24px);
+    height: 490px;
+    position: relative;
+    border-radius: 15px;
+    cursor: pointer;
+    
+  }
+  .curatedDropsBlock:hover{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15), 0px 4px 7px rgba(0, 0, 0, 0.05), 0px 12px 40px rgba(0, 0, 0, 0.1);;
+    transform: translate3d(0px, -1px, 0px);
+  }
+  .curatedDropsBlockCollectionImgBlock{
+    width: 106px;
+    height: 106px;
+    padding: 5px;
+    border-radius: 8px;
+    background: var(--st--colors-whiteT20);
+    backdrop-filter: blur(5rem);
+  }
+  .curatedDropsBlockCollectionImg{
+    border: 5px rgba(255, 255, 255, 0.2);
+  }
+  .BruceGildenBG{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;   
+    background: center /cover no-repeat url(../img/BruceGildenBG.jpg);
+  }
+
+  .EtchingsOfLatentscauxBG{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: center /cover no-repeat url(../img/EtchingsOfLatentscauxBG.png);  
+  }
+
+  .MONOLITHxFROSTBG{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: center /cover no-repeat url(../img/MONOLITHxFROSTbg.jpg);  
+  }
+  .SOLBG{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: center /cover no-repeat url(../img/SOLbg.jpg);  
+  }
+  
+  .curatedDropsBlockLineCollection{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .curatedDropsBlockCollection{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 105px;
+    height: 30px;
+    padding: 15px 5px 5px 5px;
+    text-align: center;
+    border-radius: 9999px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+  }
+
+  .curatedDropsBlockLineHeadingBlock{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+  }
+  .curatedDropsBlockHeading{
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .curatedDropsBlockLineAuthor{
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+  }
+  .curatedDropsBlockAuthor{    
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border-radius: 9999px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .curatedDropsBlockAuthor:hover{    
+    transition: 0.8s;
+    color: #000;    
+    background: rgb(255, 255, 255);
+  }
+
+  .curatedDropsBlockDropBtn{
+    color: #000;
+    background: #fff;
+    border-radius: 9999px;
+    padding: 8px;
+  }
+  .BruceGilden{
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)), center / cover  no-repeat url(../img/BruceGildenBG.jpg);
+  }
+  .EtchingsOfLatentscaux{
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)), center / cover  no-repeat url(../img/EtchingsOfLatentscauxBG.png);
+  }
+  .MONOLITHxFROST{
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)), center / cover  no-repeat url(../img/MONOLITHxFROSTbg.jpg);
+  }
+
+  .SOL{
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)), center / cover no-repeat url(../img/SOLbg.jpg);
+  }
+
+
+
+  .curatedCollections{
+    padding: 2rem;
+  }
+  .curatedCollectionsHeading{
+    font-size: 24px;
+    font-weight: normal;
+    color: #000;
+  }
+
+    .curatedCollectionsBlock{
+    background-color: #000000;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    display: flex;
+    position: relative;
+    border-radius: 16px;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .curatedCollectionsBlockHeading{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .curatedCollectionsBlockHeadingContent{
+    color: #fff;
+  }
+  .curatedCollectionsBlockContentBlock{
+    color: #000;    
+    cursor: pointer;
+    width: 30%;
+    margin-right: 2rem;
+    background: #fff;
+    border-radius: 15px;
+  }
+
+  .curatedCollectionsBlockContentBlockLine{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+  }
+ 
+  .curatedCollectionsBlockContentBlockInfo{
+    padding: 1rem;
+  }
+  .curatedCollectionsBlockContentBlockCollection{
+    background: center / cover no-repeat url(../img/112b.png);
+    border-radius: 15px 15px 0 0;
+  }
+  .curatedCollectionsBlockContentBlockCollectionHeading{
+    width: 340px;
+    height: 340px;
+    display: flex;
+    padding: 15px;
+  }
+  .curatedCollectionsBlockContentBlockCollectionHeadingImg{
+    background: center / cover no-repeat url(../img/112b.png);
+    width: 32px;
+    height: 32px;
+    margin-right: 1rem;
+  }
+  .curatedCollectionsBlockContentBlockCollectionHeadingP{
+    color: #fff;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .curatedCollectionsBlockHeadingProfileImg{
+    width: 128px;
+    height: 128px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    border-radius: 15px;
+  }
+  .curatedCollectionsBlockHeadingProfileImg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .curatedCollectionsBlockHeadingContentCollection{
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 8px;
+    border-radius: 999px;
+  }
+  .curatedCollectionsBlockHeadingContentCollectionHeading{
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+  .curatedCollectionsBlockHeadingContentCollectionAmountOfNFT{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  .curatedCollectionsBlockHeadingContentAuthor{
+    margin-top: 1rem;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 8px;
+    border-radius: 999px;
+  }
+  .curatedCollectionsBlockHeadingContentAuthor:hover{
+    color: #000;
+    background: #fff;
+  }
+
+
+  .curatedCollectionsBlockContentBlockInfoAuthor{
+    font-size: 18px;
+    color: #4D4D4D;
+  }
+  .curatedCollectionsBlockContentBlockInfoPriceBlockReserve{
+    color: #666666;
+    font-size: 14px;
+  }
+  .curatedCollectionsBlockContentBlockInfoPriceBlockETH{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .curatedCollectionsBlockContentBlockCollectionP{
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+  }
+
+
+
+
+
+
+
+
+
+  footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .privacyHeading h2{
+    color: black;
+    font-size: 2em;
+  }
+
+  .privacyBody{
+    flex-direction: column;   
+    display: flex;
+  }
+  .privacyBody a{
+    margin-bottom: 2ex;
+    color: #999999;
+  }
+  .privacyBody a:hover{
+    color: #4D4D4D;
+  }
+  .footerBlock{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .blockBody{
+    padding: 0;
+  }
+  .blockBody ul{
+    padding: 0;
+  }
+  
+  .blockBody li {
+    margin-bottom: 2ex;
+  }
+  .blockBody ul li a{
+    font-size: 18px;
+    color: black;
+  }
+  .blockBody ul li a:hover{
+    color: #4D4D4D;
+  }
+  .footerBlockHeading{
+    color: #999999;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

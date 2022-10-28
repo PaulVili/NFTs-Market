@@ -1,0 +1,48 @@
+.termsOfServiceHeading{
+    padding: 5rem;
+}
+.termsOfServiceHeading h1{
+    color: #000;
+    font-size: calc(8.82629vw + 12.9014px);
+    line-height: 0.8;
+    letter-spacing: -0.3vw;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.termsOfServiceHeading p{
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+ul{
+    list-style: inside;
+}
+
+.termsOfServiceBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 3rem;
+}
+.termsOfServiceBlock h2{
+    font-size: 36px;
+}
+.termsOfServiceBlock p{
+    font-size: 16px;
+}
+.termsOfServiceBlock span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.termsOfServiceBlock ul li{
+    margin-bottom: 1rem;
+}
+.termsOfServiceBlock ul li a{
+    color: #000;
+    text-decoration: underline;
+}

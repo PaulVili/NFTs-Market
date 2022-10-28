@@ -1,0 +1,26 @@
+.buildOutyourFeed{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.buildOutyourFeedHeading{
+    font-size: 56px;
+    font-weight: bold;
+    
+}
+
+.buildOutyourFeedContent{
+    max-width: 55ch;
+    color: #4D4D4D;
+    font-size: 21px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}

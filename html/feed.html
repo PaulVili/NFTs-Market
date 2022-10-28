@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed|Paviul</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/feed.css">
+</head>
+<body>
+    <div class="walletBlock" id="walletBlock">
+        <img src="../img/crossIcon.svg" class="crossIcon" id="walletBlockCrossIcon">
+        <h2 class="walletBlockHeading">Select a wallet</h2> 
+        <p class="walletBlockAbout">By connecting your wallet, you agree to our</p>
+        <div class="serviceAndPolicy">
+            <a href="service.html" class="walletBlockService">Terms of Service</a>
+            <span>and our</span>
+            <a href="privacypolicy.html" class="walletBlockoPrivacy">Privacy Policy</a>
+        </div>
+        <div class="wallets">
+            <ul>
+                <li class="MetamaskWallet"><a href="#">Metamask</a></li>
+                <li class="WalletConnectWallet"><a href="#">WalletConnect</a></li>
+                <li class="CoinbaseWallet"><a href="#">Coinbase Wallet</a></li>
+            </ul>
+        </div>
+        <p class="newToEthereum">New to Ethereum?</p>
+        <a href="#" class="LearnAbout">Learn about wallets</a>
+    </div>
+
+    <div class="wrapper" id="wrapper">
+        <header>        
+            <a href="../index.html"><h1 class="mainLogo">Paviul</h1></a>        
+            <nav>
+                <ul class="topmenu">
+                    <li><a href="feed.html">Feed</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdownBtn">Explore</a>
+                        <ul class="dropdown-content">
+                            <li><a href="trending.html">Trending</a></li>
+                            <li><a href="NFTs.html">Browse</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search"><input type="text" id="searchWeb3" class="searchWeb3" placeholder="Search web3"></div>
+            <a href="#" class="connectWallet btnDesign" onclick="walletBlockVision()">Connect Wallet</a>
+        </header>
+        <main>
+            <div class="buildOutyourFeed">
+                <h2 class="buildOutyourFeedHeading">Build out your Feed</h2>
+                <p class="buildOutyourFeedContent">Start building your personal Feed by connecting your wallet and following some of your favorite creators on Foundation.</p>
+                <a href="#" class="buildOutyourFeedConnectWallet connectWallet btnDesign" onclick="walletBlockVision()">Connect Wallet</a>
+            </div>
+        </main>
+        <footer>
+            <div class="privacyBlock">
+                <a href="index.html" class="privacyHeading"><h2>Paviul</h2></a>
+                <div class="privacyBody">
+                    <a href="privacypolicy.html">Privacy Policy</a>
+                    <a href="service.html">Terms of Service</a>
+                </div>
+            </div>
+            <div class="learnBlock footerBlock">
+                <h2 class="learnHeading footerBlockHeading">Learn</h2>
+                <div class="blockBody">
+                    <ul>
+                        <li><a href="#">Create</a></li>
+                        <li><a href="#">Collect</a></li>
+                        <li><a href="#">Sell</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="companyBlock footerBlock">
+                <h2 class="companyHeading footerBlockHeading">Company</h2>
+                <div class="blockBody">
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="connectBlock footerBlock">
+                <h2 class="connectHeading footerBlockHeading">Connect</h2>
+                <div class="blockBody">
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Mirror</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>   
+    <script src="../js/walletBlock.js"></script> 
+</body>
+</html>

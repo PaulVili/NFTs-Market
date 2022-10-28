@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paviul</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="walletBlock" id="walletBlock">
+        <img src="img/crossIcon.svg" class="crossIcon" id="walletBlockCrossIcon">
+        <h2 class="walletBlockHeading">Select a wallet</h2> 
+        <p class="walletBlockAbout">By connecting your wallet, you agree to our</p>
+        <div class="serviceAndPolicy">
+            <a href="html/service.html" class="walletBlockService">Terms of Service</a>
+            <span>and our</span>
+            <a href="html/privacypolicy.html" class="walletBlockoPrivacy">Privacy Policy</a>
+        </div>
+        <div class="wallets">
+            <ul>
+                <li class="MetamaskWallet"><a href="#">Metamask</a></li>
+                <li class="WalletConnectWallet"><a href="#">WalletConnect</a></li>
+                <li class="CoinbaseWallet"><a href="#">Coinbase Wallet</a></li>
+            </ul>
+        </div>
+        <p class="newToEthereum">New to Ethereum?</p>
+        <a href="#" class="LearnAbout">Learn about wallets</a>
+    </div>
+    <div class="wrapper" id="wrapper">
+        <header>        
+            <a href="index.html"><h1 class="mainLogo">Paviul</h1></a>        
+            <nav>
+                <ul class="topmenu">
+                    <li><a href="html/feed.html">Feed</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdownBtn">Explore</a>
+                        <ul class="dropdown-content">
+                            <li><a href="html/trending.html">Trending</a></li>
+                            <li><a href="html/NFTs.html">Browse</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search"><input type="text" id="searchWeb3" class="searchWeb3" placeholder="Search web3"></div>
+            <a href="#" class="connectWallet btnDesign" onclick="walletBlockVision()">Connect Wallet</a>
+        </header>
+        <main>
+            <section class="Auction">
+                <img src="img/Symbiote.avif" alt="SymbioteNFT" class="SymbioteNFT">
+                <div class="aboutAuction">
+                    <a href="html/nftSymbiote.html" class="nameNFT">Symbiote</a>
+                    <div class="firstLineAuctionBlock AuctionBlock">
+                        <div class="createdByAuctionBlock">
+                            <h3 class="AuctionBlockHeading">
+                                Created by
+                            </h3>
+                            <a href="#" class="auctionCreator auctionA">
+                                @Zak_Krevitt
+                            </a>                   
+                        </div>
+                        <div class="collectionAuctionBlock">
+                            <h3 class="AuctionBlockHeading">
+                                Collection
+                            </h3>
+                            <a href="#" class="auctionCollection auctionA">
+                                Zak Krevitt at Superchief Gallery LA
+                            </a>
+                        </div>
+                    </div>
+                    <div class="secondLineAuctionBlock AuctionBlock">
+                        <div class="currentBidAuctionBlock">
+                            <h3 class="currentBid AuctionBlockHeading">
+                                Current bid
+                            </h3>
+                            <p class="nftPrice AuctionBlockP">0.50 ETH</p>
+                        </div>
+                        <div class="auctionEndsInAuctionBlock">
+                            <h3 class="auctionEndsIn AuctionBlockHeading">
+                                Auction end in
+                            </h3>
+                            <p class="AuctionBlockP">8h 5m 48s</p>
+                        </div>
+                    </div>    
+                    <a href="html/nftSymbiote.html" class="btnDesign viewNFT">View NFT</a>       
+                </div>
+            </section>
+            <section class="curatedDrops">
+                <h2 class="curatedDropsHeading">
+                    Curated drops
+                </h2>
+                <a href="#" class="curatedDropsLearnMore">Learn more</a>
+                <div class="curatedDropsBlocksLine">
+                    <div class="curatedDropsBlock BruceGilden" onclick="location.href='#'">
+                        <div class="curatedDropsBlockLineCollection">
+                            <div class="curatedDropsBlockCollectionImgBlock"> 
+                                <div class="curatedDropsBlockCollectionImg BruceGildenBG"></div>
+                            </div>
+                            <span class="curatedDropsBlockCollection">BGBIT</span>
+                        </div>
+                        <div class="curatedDropsBlockLineHeadingBlock">
+                            <h3 class="curatedDropsBlockHeading">
+                                Bruce Gilden: A Little Bit of Everything
+                            </h3>
+                        </div>
+                        <div class="curatedDropsBlockLineAuthor">
+                            <a href="#" class="curatedDropsBlockAuthor">@brucegilden</a>
+                            <span class="curatedDropsBlockDropBtn">DROP</span>
+                        </div>        
+                    </div>
+                    <div class="curatedDropsBlock EtchingsOfLatentscaux" onclick="location.href='#'">
+                        <div class="curatedDropsBlockLineCollection">
+                            <div class="curatedDropsBlockCollectionImgBlock"> 
+                                <div class="curatedDropsBlockCollectionImg EtchingsOfLatentscauxBG"></div>
+                            </div>
+                            <span class="curatedDropsBlockCollection">GANCAVES</span>
+                        </div>
+                        <div class="curatedDropsBlockLineHeadingBlock">
+                            <h3 class="curatedDropsBlockHeading">
+                                Etchings of Latentscaux
+                            </h3>
+                        </div>
+                        <div class="curatedDropsBlockLineAuthor">
+                            <a href="#" class="curatedDropsBlockAuthor">@NeuralBricolage</a>
+                            <span class="curatedDropsBlockDropBtn">DROP</span>
+                        </div>    
+                    </div>
+                    <div class="curatedDropsBlock MONOLITHxFROST" onclick="location.href='#'">
+                        <div class="curatedDropsBlockLineCollection">
+                            <div class="curatedDropsBlockCollectionImgBlock"> 
+                                <div class="curatedDropsBlockCollectionImg MONOLITHxFROSTBG"></div>
+                            </div>
+                            <span class="curatedDropsBlockCollection">MONOJFWU</span>
+                        </div>
+                        <div class="curatedDropsBlockLineHeadingBlock">
+                            <h3 class="curatedDropsBlockHeading">
+                                MONOLITH x FROST
+                            </h3>
+                        </div>
+                        <div class="curatedDropsBlockLineAuthor">
+                            <a href="#" class="curatedDropsBlockAuthor">@frostjeff</a>
+                            <span class="curatedDropsBlockDropBtn">DROP</span>
+                        </div>
+                    </div>
+                    <div class="curatedDropsBlock SOL" onclick="location.href='#'">
+                        <div class="curatedDropsBlockLineCollection">
+                            <div class="curatedDropsBlockCollectionImgBlock"> 
+                                <div class="curatedDropsBlockCollectionImg SOLBG"></div>
+                            </div>
+                            <span class="curatedDropsBlockCollection">SOL</span>
+                        </div>
+                        <div class="curatedDropsBlockLineHeadingBlock">
+                            <h3 class="curatedDropsBlockHeading">
+                                SOL 
+                            </h3>
+                        </div>
+                        <div class="curatedDropsBlockLineAuthor">
+                            <a href="#" class="curatedDropsBlockAuthor">@coryhaber</a>
+                            <span class="curatedDropsBlockDropBtn">DROP</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="curatedCollections">
+                <h2 class="curatedCollectionsHeading">
+                    Curated collections
+                </h2>
+                <div class="curatedCollectionsBlocksLine">
+                    <div class="curatedCollectionsBlock">
+                        <div class="curatedCollectionsBlockHeading">
+                            <div class="curatedCollectionsBlockHeadingProfileImgBlock">
+                                <div class="curatedCollectionsBlockHeadingProfileImg">
+                                    <img src="img/112b.png">
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockHeadingContent">
+                                <span class="curatedCollectionsBlockHeadingContentCollection">LH112b</span>
+                                <h3 class="curatedCollectionsBlockHeadingContentCollectionHeading">112b</h3>                                
+                                <p class="curatedCollectionsBlockHeadingContentCollectionAmountOfNFT">44 NFTs</p>
+                                <a href="#" class="curatedCollectionsBlockHeadingContentAuthor">@lennyjpg</a>
+                            </div>                        
+                        </div>
+                        <div class="curatedCollectionsBlockContentBlockLine">
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curatedCollectionsBlock">
+                        <div class="curatedCollectionsBlockHeading">
+                            <div class="curatedCollectionsBlockHeadingProfileImgBlock">
+                                <div class="curatedCollectionsBlockHeadingProfileImg">
+                                    <img src="img/112b.png">
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockHeadingContent">
+                                <span class="curatedCollectionsBlockHeadingContentCollection">LH112b</span>
+                                <h3 class="curatedCollectionsBlockHeadingContentCollectionHeading">112b</h3>                                
+                                <p class="curatedCollectionsBlockHeadingContentCollectionAmountOfNFT">44 NFTs</p>
+                                <a href="#" class="curatedCollectionsBlockHeadingContentAuthor">@lennyjpg</a>
+                            </div>                        
+                        </div>
+                        <div class="curatedCollectionsBlockContentBlockLine">
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curatedCollectionsBlock">
+                        <div class="curatedCollectionsBlockHeading">
+                            <div class="curatedCollectionsBlockHeadingProfileImgBlock">
+                                <div class="curatedCollectionsBlockHeadingProfileImg">
+                                    <img src="img/112b.png">
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockHeadingContent">
+                                <span class="curatedCollectionsBlockHeadingContentCollection">LH112b</span>
+                                <h3 class="curatedCollectionsBlockHeadingContentCollectionHeading">112b</h3>                                
+                                <p class="curatedCollectionsBlockHeadingContentCollectionAmountOfNFT">44 NFTs</p>
+                                <a href="#" class="curatedCollectionsBlockHeadingContentAuthor">@lennyjpg</a>
+                            </div>                        
+                        </div>
+                        <div class="curatedCollectionsBlockContentBlockLine">
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curatedCollectionsBlock">
+                        <div class="curatedCollectionsBlockHeading">
+                            <div class="curatedCollectionsBlockHeadingProfileImgBlock">
+                                <div class="curatedCollectionsBlockHeadingProfileImg">
+                                    <img src="img/112b.png">
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockHeadingContent">
+                                <span class="curatedCollectionsBlockHeadingContentCollection">LH112b</span>
+                                <h3 class="curatedCollectionsBlockHeadingContentCollectionHeading">112b</h3>                                
+                                <p class="curatedCollectionsBlockHeadingContentCollectionAmountOfNFT">44 NFTs</p>
+                                <a href="#" class="curatedCollectionsBlockHeadingContentAuthor">@lennyjpg</a>
+                            </div>                        
+                        </div>
+                        <div class="curatedCollectionsBlockContentBlockLine">
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curatedCollectionsBlock">
+                        <div class="curatedCollectionsBlockHeading">
+                            <div class="curatedCollectionsBlockHeadingProfileImgBlock">
+                                <div class="curatedCollectionsBlockHeadingProfileImg">
+                                    <img src="img/112b.png">
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockHeadingContent">
+                                <span class="curatedCollectionsBlockHeadingContentCollection">LH112b</span>
+                                <h3 class="curatedCollectionsBlockHeadingContentCollectionHeading">112b</h3>                                
+                                <p class="curatedCollectionsBlockHeadingContentCollectionAmountOfNFT">44 NFTs</p>
+                                <a href="#" class="curatedCollectionsBlockHeadingContentAuthor">@lennyjpg</a>
+                            </div>                        
+                        </div>
+                        <div class="curatedCollectionsBlockContentBlockLine">
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="curatedCollectionsBlockContentBlock">
+                                <div class="curatedCollectionsBlockContentBlockCollection">
+                                    <div class="curatedCollectionsBlockContentBlockCollectionHeading">
+                                        <div class="curatedCollectionsBlockContentBlockCollectionHeadingImg"></div>
+                                        <p class="curatedCollectionsBlockContentBlockCollectionHeadingP">112b</p>
+                                    </div>
+                                    <p class="curatedCollectionsBlockContentBlockCollectionP">112b</p>
+                                </div>
+                                <div class="curatedCollectionsBlockContentBlockInfo">
+                                    <p class="curatedCollectionsBlockContentBlockInfoAuthor">@lennyjpg</p>
+                                    <div class="curatedCollectionsBlockContentBlockInfoPriceBlock">
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockReserve">Buy Now</p>
+                                        <p class="curatedCollectionsBlockContentBlockInfoPriceBlockETH">0.25 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="introducingDrops" onclick="location.href='html/drops.html'">
+                <h2 class="introducingDropsHeading">
+                    Introducing drops
+                </h2>
+                <p class="invitingPhrase"> A new <span class="wayWord">way</span> to <span class="createWord">create</span></p>
+                <a href="html/drops.html" class="learnMore btnDesign">
+                    Learn more
+                </a>
+            </section>        
+        </main>
+        <footer>
+            <div class="privacyBlock">
+                <a href="index.html" class="privacyHeading"><h2>Paviul</h2></a>
+                <div class="privacyBody">
+                    <a href="html/privacypolicy.html">Privacy Policy</a>
+                    <a href="html/service.html">Terms of Service</a>
+                </div>
+            </div>
+            <div class="learnBlock footerBlock">
+                <h2 class="learnHeading footerBlockHeading">Learn</h2>
+                <div class="blockBody">
+                    <ul>
+                        <li><a href="#">Create</a></li>
+                        <li><a href="#">Collect</a></li>
+                        <li><a href="#">Sell</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="companyBlock footerBlock">
+                <h2 class="companyHeading footerBlockHeading">Company</h2>
+                <div class="blockBody">
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="connectBlock footerBlock">
+                <h2 class="connectHeading footerBlockHeading">Connect</h2>
+                <div class="blockBody">
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Mirror</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>  
+    </div>    
+    <script src="js/walletBlock.js"></script> 
+</body>
+</html>
